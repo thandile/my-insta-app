@@ -1,4 +1,5 @@
 import React from 'react';
+import ProfileImage from '../components/ProfileImage'
 
 
 class ProfilePage extends React.Component {
@@ -6,7 +7,9 @@ class ProfilePage extends React.Component {
         return (
             <div className='profilePage'>
                 <div className='profilePageContainer'>
-                    Loading
+                    <div className='profilePageHeadContainer'>
+                        <ProfileImage/>
+                    </div>
                 </div>
             </div>
         )
