@@ -39,10 +39,15 @@ code {
 .postItemContainer {
   flex: 1;
   padding: 24px;
+  display: inline-block;
 }
 
 .postItem {
   height: 300px;
   width: 300px;
   background-size: cover;
+}
+
+.postGrid {
+  display: block;
 }

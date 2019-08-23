@@ -1,5 +1,6 @@
 import React from 'react';
-import ProfileImage from '../components/ProfileImage'
+import ProfileImage from '../components/ProfileImage';
+import PostGrid from '../components/PostGrid';
 
 
 class ProfilePage extends React.Component {
@@ -9,6 +10,9 @@ class ProfilePage extends React.Component {
                 <div className='profilePageContainer'>
                     <div className='profilePageHeadContainer'>
                         <ProfileImage/>
+                    </div>
+                    <div className='profilePageGridContainer'>
+                        <PostGrid />
                     </div>
                 </div>
             </div>
